@@ -1,0 +1,26 @@
+Para introducción git como local
+
+Configuración local
+Git config user.name “rubng87”
+Git config user.email “gallegoruben_srye@hotmail.com”
+
+Confiuración Gobal
+git config --global core.editor "code --wait"
+git config --global core.autocrlf true(windows) input (mac)
+git config -e (para mirarque tenemos introducido)
+git config --global -e (para ver como esta configurado)
+
+git init para emepzar
+.gitignore (para omitir que lo lea y suba git)
+git add index.html es para añadir (fase2)
+git add . (para añadir todos los archivos)
+git status (nos informa de la situación actual del proyecto)
+git rm --cached <file>..." to unstage para volver a ponerlo en U y no lo suba
+git commit -m "Proyecto casi acabado. Faltan los enlaces internos"
+
+Para subir a la nube
+git remote add origin https://github.com/rubng87/_01_catalogo.git
+git branch -M main
+git push -u origin main
+
+git log nos informa de cambios que vamos haciendo
